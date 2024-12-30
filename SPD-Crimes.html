@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .header {
+            height: 400px; /* Adjusted the height to 400px */
+            background-image: url('images/spd.jpg');
+            background-size: cover;
+            background-position: center -250px;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .header .banner {
+            background-color: #4b7886;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 24px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .project-details {
+            width: 80%;
+            margin: auto;
+            background-color: #1b1b1b;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #5bb2cc;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .tags span {
+            display: inline-block;
+            background-color: #2C3E50;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-right: 10px;
+            color: #F39C12;
+        }
+
+        .link {
+            color: #FFA500;
+            text-decoration: none;
+        }
+
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 30%;
+            background-color: #2c2c2c;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #5bb2cc;
+        }
+
+        p {
+            color: #aaa;
+        }
+
+        .result-section {
+            background-color: #2C3E50;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .result-section h2 {
+            color: #F39C12;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .result-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Homescreen Link */
+        .home-link {
+            color: #00c3ff; /* Light blue text */
+            text-decoration: none; /* No underline */
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10; /* Ensure it stays on top */
+        }
+
+        .home-link:hover {
+            color: #007b8c; /* Darker blue when hovered */
+        }
+
+        /* Media Queries */
+        @media (max-width: 1200px) {
+            .project-details {
+                width: 90%;
+            }
+
+            .summary {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .header .banner {
+                font-size: 18px;
+            }
+
+            .result-section h2 {
+                font-size: 24px;
+            }
+
+            .result-image {
+                width: 90%;
+            }
+
+            .summary {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .home-link {
+                font-size: 14px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .banner {
+                font-size: 14px;
+            }
+
+            .section h2 {
+                font-size: 18px;
+            }
+
+            .tags span {
+                font-size: 14px;
+            }
+
+            .result-image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Seattle Police Department</h1>
+        <div class="banner">Crime Trend Analysis</div>
+    </div>
+    <div class="project-details">
+        <div class="section">            
+        </div>
+
+        <div class="section">
+            <h2>Tools</h2>
+            <div class="tags">
+                <span>Tableau</span>
+                <span>Python</span>
+                <span>SQLite</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Link</h2>
+            <a class="link" href="https://public.tableau.com/views/SeattlePoliceCrimeAnalysis/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Tableau Dashboard</a>
+        </div>
+        <div class="section">
+            <h2>Data</h2>
+            <a class="link" href="https://catalog.data.gov/dataset/spd-crime-data-2008-present-c0edb">spd_data.csv</a>
+        </div>
+        <div class="section">
+            <h2>Code</h2>
+            <a class="link" href="https://anaconda.cloud/share/notebooks/bd0e4721-384b-459b-b9f0-fc076da533eb/preview" >Python Code</a>
+        </div>
+
+        <h2>Summary</h2>
+        <div class="summary">
+            <div class="box">
+                <h3>Goal</h3>
+                <p>The goal was to identify crime trends and areas with consistently high crime rates in Seattle, to inform strategies for crime reduction and improve community safety.</p>
+            </div>
+            <div class="box">
+                <h3>Process</h3>
+                <p>- Data Cleaning & Transformation: Used Python to map neighborhood names to zip codes, split multiple zip codes, update latitude/longitude values, and remove duplicates.</p>
+                  <P>  - Exporting Data: The cleaned dataset was exported into CSV files for further analysis.</p>
+                    <p>- SQL Data Analysis: Applied Common Table Expressions (CTEs) to filter and count violent and property crimes.</p>
+                    <p>- Grouping & Key Generation: Created tables to group data by neighborhood, zip code, and precinct; assigned unique identifiers to offenses and neighborhoods</p>
+            </div>
+            <div class="box">
+                <h3>Insights</h3><p>- The sharp spike in offenses around 2020, with a peak of 767 on a single day, likely correlates to the Covid-19 pandemic, Scammers exploited the pandemic by stealing personal information (Identity Theft) to apply for unemployment and small business aid</p>
+                <P>  - The table shows that Capitol Hill has the highest number of offenses in the MCPP, with 21,951 crimes, followed by Downtown Commercial (19,944) and Queen Anne (19,680). These neighborhoods experience notably higher crime rates, suggesting a need for targeted policing or community safety initiatives</p>
+                  <p>- The time of day in which crime occurres more often is at night by using historical data from 08'-present</p>
+                  <p>- The offense that has occurred the most in the past 5 years in Seattle has been Burglary, Theft from Motor Vehicle and Vandalism according to the MCPP High Offenses graph</p>
+          </div>
+        </div>
+
+        <!-- Result Sections -->
+        <div class="result-section">
+            <h2>Result 1: Daily Crime Trend 08'-24'</h2>
+            <img class="result-image" src="spdgraph/Crime_Trends 08'-24'.png" alt="Result 1 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result 2: Crime Rates 20'-24'</h2>
+            <img class="result-image" src="spdgraph/test1.png" alt="Result 2 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result 3: Top Offenses in 2020</h2>
+            <img class="result-image" src="spdgraph/2020top crimes.png" alt="Result 3 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result 4:</h2>
+            <img class="result-image" src="spdgraph/Crimes_Occured_Time_Day.png" alt="Result 4 Image">
+        </div>
+     
+        <div class="result-section">
+            <h2>Result 5: Offenses by MCPP 20'-24'</h2>
+            <img class="result-image" src="spdgraph/spd_mcpp.png" alt="Result 5 Image">
+        </div>
+        <!-- Homescreen Link -->
+        <a href="index.html" class="home-link">Home</a>
+    </div>
+</body>
+</html>

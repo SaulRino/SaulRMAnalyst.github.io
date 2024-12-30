@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Styling */
+        .header {
+            height: 400px; /* Adjusted the height to 400px */
+            background-image: url('images/_edited.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .header .banner {
+            background-color: #4b7886;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 24px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .project-details {
+            width: 80%;
+            margin: auto;
+            background-color: #1b1b1b;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #5bb2cc;
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .tags span {
+            display: inline-block;
+            background-color: #2C3E50;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-right: 10px;
+            color: #F39C12;
+        }
+
+        .link {
+            color: #FFA500;
+            text-decoration: none;
+        }
+
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 30%;
+            background-color: #2c2c2c;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h3 {
+            color: #5bb2cc;
+        }
+
+        p {
+            color: #aaa;
+        }
+
+        .result-section {
+            background-color: #2C3E50;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .result-section h2 {
+            color: #F39C12;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .result-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        /* Homescreen Link */
+        .home-link {
+            color: #00c3ff; /* Light blue text */
+            text-decoration: none; /* No underline */
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10; /* Ensure it stays on top */
+        }
+
+        .home-link:hover {
+            color: #007b8c; /* Darker blue when hovered */
+        }
+
+        /* Media Queries */
+        @media (max-width: 1200px) {
+            .project-details {
+                width: 90%;
+            }
+
+            .summary {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 36px;
+            }
+
+            .header .banner {
+                font-size: 18px;
+            }
+
+            .result-section h2 {
+                font-size: 24px;
+            }
+
+            .result-image {
+                width: 90%;
+            }
+
+            .summary {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .box {
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .home-link {
+                font-size: 14px;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .header .banner {
+                font-size: 14px;
+            }
+
+            .section h2 {
+                font-size: 18px;
+            }
+
+            .tags span {
+                font-size: 14px;
+            }
+
+            .result-image {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Netflix Review Analysis</h1>
+        <div class="banner">Sentiment Analysis</div>
+    </div>
+    <div class="project-details">
+        <div class="section">            
+        </div>
+
+        <div class="section">
+            <h2>Tools</h2>
+            <div class="tags">
+                <span>Tableau</span>
+                <span>Python</span>
+                <span>SQLite</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Link</h2>
+            <a class="link" href="https://public.tableau.com/views/Netflix_Reviews/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">Tableau Dashboard</a>
+        </div>
+        <div class="section">
+            <h2>Data</h2>
+            <a class="link" href="https://www.kaggle.com/datasets/ashishkumarak/netflix-reviews-playstore-daily-updated" >netflix_reviews.csv</a>
+        </div>
+        <div class="section">
+            <h2>Code</h2>
+            <a class="link" href="https://anaconda.cloud/share/notebooks/8de0f1d2-f6a6-48e6-a06a-c83f68003649/preview" >Python Code</a>
+        </div>
+        
+        <h2>Summary</h2>
+        <div class="summary">
+            <div class="box">
+                <h3>Goal</h3>
+                <p>This analysis of Netflix reviews identified key themes in negative feedback linked to subscription cancellations. The findings highlight recurring dissatisfaction drivers, offering actionable insights to improve customer retention and satisfaction                </p>
+            </div>
+            <div class="box">
+                <h3>Process</h3>
+                <p>- Ensured completeness of key columns (content, score, appVersion) and removed duplicates</p>
+                  <P>  - Standardized review text for effective analysis by cleaning irrelevant and redundant data</p>
+                    <p>- Added a Topic Label column to categorize reviews by dominant themes</p>
+                    <p>- Created Sentiment Score and Review Length metrics to identify patterns in complaints</p>
+            </div>
+            <div class="box">
+                <h3>Insights</h3><p>- Technical Complaints Dominate: Topics 1 and 2 made up the majority of reviews, showing critical app performance issues</p>
+                <P>  - Content Matters: Content dissatisfaction was a leading cause of low sentiment in specific regions</p>
+                  <p>- Engagement Correlation: Longer, more detailed reviews often pointed to unresolved billing or app problems</p>
+                  <p>- Yearly Trends: Increasing technical complaints suggest rising user expectations for app reliability</p>
+          </div>
+        </div>
+
+        <!-- Result Sections -->
+        <div class="result-section">
+            <h2>Result: Cancellation Rate by Topic</h2>
+            <img class="result-image" src="Netflixgraph/Cancelation Rate by Topic.png" alt="Result 1 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result:  Topic 1 App Issues & Functionality</h2>
+            <img class="result-image" src="Netflixgraph/Topic 1.png" alt="Result 1 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result: Topic 2 App Updates & Features</h2>
+            <img class="result-image" src="Netflixgraph/Topic 2.png" alt="Result 2 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result: Topic 3 Payment & Subscription Issues</h2>
+            <img class="result-image" src="Netflixgraph/Topic 3.png" alt="Result 3 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result: Topic 4 Account & Access Problems</h2>
+            <img class="result-image" src="Netflixgraph/Topic 4.png" alt="Result 4 Image">
+        </div>
+
+        <div class="result-section">
+            <h2>Result: Topic 5 Viewing Experience & Content</h2>
+            <img class="result-image" src="Netflixgraph/Topic 5.png" alt="Result 5 Image">
+        </div>
+
+
+        <!-- Homescreen Link -->
+        <a href="index.html" class="home-link">Home</a>
+    </div>
+</body>
+</html>

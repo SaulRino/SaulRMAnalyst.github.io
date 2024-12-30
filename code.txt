@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Saul Rodriguez-Martinez</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Saul<br />
+						Rodriguez-Martinez</h1>
+						<p>Data analyst skilled in Python, Tableau, and SQL, transforming data into insights and solutions to drive the beter data driven decisions. <a href="https://www.linkedin.com/in/saul-rodriguez-martinez-1356a3168/">@Saul Rodriguez-Martinez</a>
+						is my LinkedIn if youd like to check it out and get more insight about me!</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Saul Rodriguez-Martinez</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/saul-rodriguez-martinez-1356a3168/" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/SaulRino" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+
+
+									<h2><a href="#">Netflix<br />
+									Review Analysis</a></h2>
+									<p>Analyzed Netflix reviews to identify themes in negative feedback predicting subscription cancellations.
+										 Uncovered recurring issues driving dissatisfaction to inform strategies for improving customer retention.</p>
+								</header>
+								<a href="#" class="image main"><img src="_edited.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="#" class="button large">View Project</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="#">Seattle Police<br />
+										Department</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="police-vehicle-seattle.jpg" alt="" /></a>
+									<p>Conducted a comprehensive analysis of Seattle Police Department crime data (2008–present). Identified trends, mapped crime hotspots, and explored contributing factors using Python, SQL, and Tableau. Developed skills in data cleaning, visualization, and geospatial mapping, delivering actionable insights and recommendations for public safety improvements. Demonstrated problem-solving, trend analysis, and communication skills through this project.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="#">Super Bowl<br />
+										Analysis</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="superbowl.png" alt="" /></a>
+									<p>Analyzed Super Bowl data to identify trends in team performance, scoring patterns, and game competitiveness. Using feature engineering, I calculated winning and losing margins to assess dominance and close-game frequency, revealing that 46.3% of games were decided by 10 points or fewer. Delivered insights on scoring trends over decades and highlighted the sustained success of powerhouse teams like the Steelers and Patriots, providing a deeper understanding of Super Bowl dynamics.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">View Project</a></li>
+									</ul>
+								</article>
+							
+
+
+								<!DOCTYPE html>
+								<html lang="en">
+								<head>
+								  <meta charset="UTF-8">
+								  <meta name="viewport" content="width=device-width, initial-scale=1">
+								  <title>Portfolio - Languages</title>
+								  <!-- Link to Font Awesome for Icons -->
+								  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+								  <!-- Link to Your CSS -->
+								  <link rel="stylesheet" href="styles.css">
+								</head>
+								<body>
+								
+								  <!-- Languages Section -->
+								  <section id="languages" class="languages-section">
+									<div class="container">
+									  <h2 class="section-title">Languages</h2>
+									  <div class="languages-grid">
+										<!-- Language Item -->
+										<div class="language-item">
+										  <div class="language-icon">
+											<i class="fab fa-python"></i>
+										  </div>
+										  <div class="language-info">
+											<h3>Python</h3>
+											<div class="progress-bar">
+											  <div class="progress" style="--progress-width: 95%;"></div>
+											</div>
+										  </div>
+										</div>
+								
+										<div class="language-item">
+										  <div class="language-icon">
+											<img src="sql_logo.png" alt="sql Logo" style="width: 15px; height: 15px;">
+										</div>
+										  <div class="language-info">
+											<h3>SQL</h3>
+											<div class="progress-bar">
+											  <div class="progress" style="--progress-width: 95%;"></div>
+											</div>
+										  </div>
+										</div>
+								
+										<div class="language-item">
+											<div class="language-icon">
+											  <img src="Tableau-Symbol.png" alt="Tableau Logo" style="width: 30px; height: 20px;">
+											</div>
+											<div class="language-info">
+											  <h3>Tableau</h3>
+											  <div class="progress-bar">
+											  <div class="progress" style="--progress-width: 85%;"></div>
+											</div>
+										  </div>
+										</div>
+									
+
+								
+										<div class="language-item">
+										  <div class="language-icon">
+											<i class="fas fa-r"></i>
+										  </div>
+										  <div class="language-info">
+											<h3>RStudio</h3>
+											<div class="progress-bar">
+											  <div class="progress" style="--progress-width: 80%;"></div>
+											</div>
+										  </div>
+										</div>
+									  </div>
+									</div>
+								  </section>
+								
+						
+						
+													
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <style>
+        body {
+            background-color: #1b1b1b;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .header .banner {
+            background-color: #0078FF;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 24px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .project-details {
+            width: 80%;
+            margin: auto;
+            background-color: #111111;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .section {
+            margin: 20px 0;
+        }
+
+        .section h2 {
+            color: #00A3FF;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .tags span {
+            display: inline-block;
+            background-color: #2C3E50;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-right: 10px;
+            color: #F39C12;
+        }
+
+        .link {
+            color: #FFA500;
+            text-decoration: none;
+        }
+
+        .summary {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 30%;
+            background-color: #2c2c2c;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Housing Market Analysis in Braga</h1>
+        <div class="banner">DON'T FORGET TO UPDATE YOUR PRESENTATION COVER</div>
+    </div>
+    <div class="project-details">
+        <div class="section">
+            <h2>Description</h2>
+            <p>Investigating housing prices in the Braga district in Portugal.</p>
+        </div>
+
+        <div class="section">
+            <h2>Tools</h2>
+            <div class="tags">
+                <span>Tableau</span>
+                <span>Data Visualization</span>
+                <span>Data Cleaning</span>
+                <span>Data Analysis</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Link</h2>
+            <a class="link" href="https://public.tableau.com/app/ga/One">public.tableau.com</a>
+        </div>
+
+        <div class="section">
+            <h2>Data</h2>
+            <p>house_prices_final.xlsx</p>
+        </div>
+
+        <h2>Summary</h2>
+        <div class="summary">
+            <div class="box">
+                <h3>Goal</h3>
+                <p>Just a couple sentences here describing the motivation behind choosing this specific project.</p>
+            </div>
+            <div class="box">
+                <h3>Process</h3>
+                <p>Describe briefly the steps, methodology, and tooling used in the project.</p>
+            </div>
+            <div class="box">
+                <h3>Insights</h3>
+                <p>Write down your key findings, results, conclusions, or highlights here.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
